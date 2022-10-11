@@ -1,0 +1,67 @@
+body{
+	background: radial-gradient(rgb(251, 252, 254),rgb(106, 197, 224));
+}
+.thumbnail{ 
+	height: 230px;
+	width: 300px;
+	border: 1px solid #2a75bb;
+	border-radius: 30px;
+	animation: 2s;
+}
+.thumbnail:hover{
+  box-shadow: 0 0 15px 5px 	#2a75bb;
+	border: 4px solid #ffcb05;
+	background: radial-gradient(rgb(251, 252, 254),rgb(106, 197, 224));
+
+}
+.thumbnail:focus{
+  border: 0px solid transparent; 
+	box-shadow: 0 0 15px 1px #ffcb05;
+	background: radial-gradient(rgb(251, 252, 254),rgb(106, 197, 224));
+}
+.col-md-3{
+	display: block;
+  position: relative;
+  left: -120px;
+  top: 80px;    
+}
+.col-md-3 img{
+	  height: 150px;
+    width: 450px;
+    transform: rotate(-10deg);
+}
+
+#Puntaje{
+	font-family: 'Pokemon Solid', sans-serif;
+	font-size: 50px;
+	color: #ffcb05;
+	-webkit-text-stroke: 2px #2a75bb;
+	letter-spacing: 5px;
+	position: relative;
+	left: 105px;
+}
+.label-puntos{
+	font-family: 'Pokemon Solid', sans-serif;
+	font-size: 50px;
+	color: #ffcb05;
+	-webkit-text-stroke: 4px #2a75bb;
+	letter-spacing: 5px;
+}
+#DragPokemons{
+  left: 33%;
+}
+.label{
+	background: #3c5aa6;
+	color: #ffcb05;
+	font-size: 30px;
+	position: relative;
+	left: 69px;
+}
+.col-md-4 img{
+  top: 50%;
+  left: 50%;  
+  height: 200px;
+  width: 200px;
+  align-items: center;
+}
+
